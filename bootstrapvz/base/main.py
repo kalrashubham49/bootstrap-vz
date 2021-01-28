@@ -32,6 +32,7 @@ def main():
 def get_opts():
     """Creates an argument parser and returns the arguments it has parsed
     """
+    pip3 install docopt
     from docopt import docopt
     usage = """bootstrap-vz
 
