@@ -32,7 +32,7 @@ def main():
 def get_opts():
     """Creates an argument parser and returns the arguments it has parsed
     """
-    import docopt
+    from docopt import docopt
     usage = """bootstrap-vz
 
 Usage: bootstrap-vz [options] MANIFEST
